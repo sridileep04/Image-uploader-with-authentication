@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>These Are The Uploaded Images </h1>
+    
+    <% files.forEach(file => { %>
+      <img src="/uploads/<%= file %>" class="img-thumbnail">
+    <% }); %>
+      </div>
+
+  
+</body>
+</html>
+
